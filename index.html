@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CueTipLLC - Game Development</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">CueTipLLC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Our Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mission">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1>Welcome to CueTipLLC</h1>
+        <p>Think Where The Mind Can't Go.</p>
+        <a
+          href="#https://globalgamejam.org/games/2025/bubble-battle-0-0"
+          class="btn btn-light btn-lg"
+          >View Projects</a
+        >
+      </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="py-5">
+      <div class="container text-center">
+        <h2>Our Mission</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="cuetip.png" class="img-fluid" alt="Mission Image" />
+          </div>
+          <div class="col-md-6">
+            <p>
+              CueTipLLC is dedicated to educating and entertaining autistic kids
+              through innovative video games and engaging videos.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="weather" class="text-center text-white bg-secondary py-3 mb-4">
+        <h5>🌤️ Current Weather:</h5>
+        <p id="weatherInfo">Loading weather data...</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light text-center">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <i class="bi bi-controller display-3"></i>
+            <h5>Games</h5>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <i class="bi bi-globe display-3"></i>
+            <h5>Web Games, Educational Courses</h5>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <i class="bi bi-phone display-3"></i>
+            <h5>Mobile Games, Mobile Courses</h5>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <i class="bi bi-camera-reels display-3"></i>
+            <h5>Educational Videos</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-center">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <a href="https://x.com/CueTipllc" class="text-dark"
+              ><i class="bi bi-twitter display-4"></i
+            ></a>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <a
+              href="https://www.linkedin.com/company/cuetipllc/?viewAsMember=true"
+              class="text-dark"
+              ><i class="bi bi-linkedin display-4"></i
+            ></a>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <a href="#" class="text-dark"
+              ><i class="bi bi-envelope display-4"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carousel Section (Optional LevelUp) -->
+    <section id="carousel" class="py-5 bg-dark text-white text-center">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="cuetip.png" class="d-block w-100" alt="Slide 1" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Game Concept Art</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="cuetip2.png" class="d-block w-100" alt="Slide 2" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>cuetip</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="cuetip3.png" class="d-block w-100" alt="Slide 3" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Game Launch Event</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="text-center my-4">
+        <h4 id="quote">Loading daily tip...</h4>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2025 CueTipLLC. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS/  Axios  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+  </body>
+  <script src="script.js"></script>
+</html>
